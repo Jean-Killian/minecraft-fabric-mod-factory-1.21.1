@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "weedfactory",
+	"version": "${1.0}",
+	"name": "Weed Factory",
+	"description": "This is a description!",
+	"authors": [
+		"Killian"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/weedfactory/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"killian.weedfactory.WeedFactory"
+		],
+		"fabric-datagen": [
+			"killian.weedfactory.WeedFactoryDataGenerator"
+		],
+		"client": [
+			"killian.weedfactory.WeedFactoryClient"
+		]
+	},
+	"mixins": [
+		"weedfactory.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

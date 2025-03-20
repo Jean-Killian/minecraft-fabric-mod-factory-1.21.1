@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItem {
 
-    public static final Item SPACE_CAKE = registerItem("space_cake", new Item(new Item.Settings()));
+    public static final Item SPACE_CAKE = registerItem("space_cake", new Item(new Item.Settings().food(ModFoodComponents.SPACE_CAKE)));
     public static final Item BARRETTE_DE_SHIT = registerItem("barrette_de_shit", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {

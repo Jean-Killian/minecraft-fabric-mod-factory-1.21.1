@@ -8,12 +8,10 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.PointOfInterestTypeTags;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.poi.PointOfInterestType;
-
 import java.util.concurrent.CompletableFuture;
 
 public class ModPoiTagProvider extends TagProvider<PointOfInterestType> {
-    public ModPoiTagProvider(DataOutput output,
-                                CompletableFuture<RegistryWrapper.WrapperLookup> registryLookupFuture) {
+    public ModPoiTagProvider(DataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookupFuture) {
         super(output, RegistryKeys.POINT_OF_INTEREST_TYPE, registryLookupFuture);
     }
 

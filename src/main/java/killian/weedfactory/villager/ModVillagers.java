@@ -17,8 +17,7 @@ import net.minecraft.world.poi.PointOfInterestType;
 public class ModVillagers {
 
     public static final RegistryKey<PointOfInterestType> DEALER_POI_KEY = poiKey("dealerpoi");
-    public static final PointOfInterestType DEALER_POI = registerPoi("dealerpoi", Blocks.NETHERITE_BLOCK);
-
+    public static final PointOfInterestType DEALER_POI = registerPoi("dealerpoi", Blocks.EMERALD_BLOCK);
     public static final VillagerProfession DRUG_DEALER = registerProfession("drug_dealer", DEALER_POI_KEY);
 
     private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {

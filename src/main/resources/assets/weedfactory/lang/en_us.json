@@ -1,6 +1,9 @@
 {
   "item.weedfactory.space_cake": "Space Cake",
   "item.weedfactory.barrette_de_shit": "Barrette de shit",
+  "item.weedfactory.joint": "Joint",
 
-  "entity.minecraft.villager.drug_dealer": "Drug Dealer"
+  "entity.minecraft.villager.drug_dealer": "Drug Dealer",
+
+  "effect.weedfactory.foncedalle": "Foncedalle"
 }

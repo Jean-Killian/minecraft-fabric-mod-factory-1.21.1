@@ -1,5 +1,6 @@
 package killian.weedfactory;
 
+import killian.weedfactory.effect.ModEffects;
 import killian.weedfactory.item.ModItem;
 import killian.weedfactory.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
@@ -13,6 +14,7 @@ public class WeedFactory implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModEffects.registerEffects();
 		ModItem.registerModItems();
 		ModVillagers.registerVillagers();
 	}
